@@ -6,9 +6,9 @@ All participants are encouraged to clone the git repository [(need help with git
 
 ## Folder content
 
-Session1.ppt   - Introduction (Powerpoint slides)
-Session2.ipynb - Design effect and weighting (R Code in Jupyter Notebook) 
-Session3.ipynb - Response styles (R Code in Jupyter Notebook)
+- Session1.ppt   - Introduction (Powerpoint slides)
+- Session2.ipynb - Design effect and weighting (R Code in Jupyter Notebook) 
+- Session3.ipynb - Response styles (R Code in Jupyter Notebook)
 
 
 ## Installation software stack
@@ -25,11 +25,11 @@ The installation differs only slightly across Windows, Linux or macOS.
 
 ### Installing Python
 
-Python can be installed in various ways, but we recommend using [conda](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html), which makes installing jupyter very simple. To install conda, you need to the relevant installer [here](https://docs.conda.io/en/latest/miniconda.html).
+Python can be installed in various ways, but we recommend using [conda](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html), which makes installing jupyter very simple. To install conda, you need to execute the relevant installer [here](https://docs.conda.io/en/latest/miniconda.html).
 
 ### Installing Jupyter
 
-The [Jupyter Project](https://docs.jupyter.org/en/latest/) provides a range of applications for various application szenarios, which mostly deal with [Jupyter Notebooks](https://docs.jupyter.org/en/latest/#what-is-a-notebook). We will use [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/index.html) to run the Jupyter Notebooks in the the git repository locally. 
+The [Jupyter Project](https://docs.jupyter.org/en/latest/) provides a range of applications for various application szenarios, which mostly deal with [Jupyter Notebooks](https://docs.jupyter.org/en/latest/#what-is-a-notebook). We will use [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/index.html) to run the Jupyter Notebooks in the the git repository locally on your computer. 
 
 Open a terminal and run the following code:
 
@@ -45,7 +45,7 @@ After installing R, the R kernel is still not available in Jupyter and we will n
 
 1. Installing the [IRkernel package](https://cran.rstudio.com/web/packages/IRkernel/index.html):
 ```R
-install.pacckages("IRkernel")
+install.packages("IRkernel")
 ```
 2. You need to make the R Kernel systemwide available:
 ```R
