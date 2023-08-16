@@ -29,7 +29,7 @@ Python can be installed in various ways, but we recommend using [conda](https://
 
 ### Installing Jupyter
 
-The [Jupyter Project](https://docs.jupyter.org/en/latest/) provides a range of applications for various application szenarios, which mostly deal with [Jupyter Notebooks](https://docs.jupyter.org/en/latest/#what-is-a-notebook). We will use [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/index.html) to run the Jupyter Notebooks in the the git repository locally on your computer. 
+The [Jupyter Project](https://docs.jupyter.org/en/latest/) provides a range of applications for various application szenarios, which mostly deal with [Jupyter Notebooks](https://docs.jupyter.org/en/latest/#what-is-a-notebook). We will use [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/index.html) to run the Jupyter Notebooks locally on your computer. 
 
 Open a terminal and run the following code:
 
