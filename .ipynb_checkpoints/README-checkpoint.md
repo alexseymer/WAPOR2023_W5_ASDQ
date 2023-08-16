@@ -13,7 +13,7 @@ All participants are encouraged to clone the git repository [(need help with git
 
 ## Installation software stack
 
-We provide here some installation instructions and links, which should make it easy to get jupyter labs with R up and running. Please be aware that we cannot provide technical assistance for installing software.
+We provide here some installation instructions and links, which should make it easy to get [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/index.html) with R up and running. Please be aware that we cannot provide technical assistance for installing software.
 
 You will need different software packages to run the entire stack:
 
