@@ -11,7 +11,7 @@ All participants are encouraged to clone the git repository [(need help with git
 - Session3.ipynb - Response styles (R Code in Jupyter Notebook)
 
 
-## Installation software stack
+## Required software
 
 We provide here some installation instructions and links, which should make it easy to get [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/index.html) with R up and running. Please be aware that we cannot provide technical assistance for installing software.
 
@@ -52,9 +52,15 @@ install.packages("IRkernel")
 IRkernel::installspec(user = FALSE)
 ```
 
-## Run Jupyter Lab
+## Start the workshop environment
 
-Depending on your installation you can now run the Jupyter Lab from the console. 
+The first step is to clone this repository.
+
+```bash
+git clone https://github.com/alexseymer/WAPOR2023_W5_ASDQ.git
+```
+
+Go to the directory and depending on your installation you can now run the Jupyter Lab from the console. 
 
 ```python
 jupyter lab
