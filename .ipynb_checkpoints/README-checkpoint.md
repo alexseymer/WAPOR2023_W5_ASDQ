@@ -1,3 +1,7 @@
+[![Binder](https://mybinder.org/badge_logo.svg)]
+
+![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alexseymer/WAPOR2023_W5_ASDQ/HEAD?urlpath=lab)
+
 # WAPOR2023_W5_ASDQ
 
 This is the repository for the [WAPOR 2023 Training Workshop 5 Assessment of Survey Data Quality](https://wapor.org/events/annual-conference/current-conference/training-workshops/).
