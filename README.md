@@ -43,7 +43,7 @@ conda install -c conda-forge jupyterlab
 
 The R-Project provides a [guide to installation and administration for R](https://cran.r-project.org/doc/manuals/r-release/R-admin.html), but if you are running Windows or macOS, it's basically about downloading the proper package [(see here)](https://cloud.r-project.org/) and installing it.
 
-After installing R, the R kernel is still not available in Jupyter and we will need to run to commands in the R console:
+After installing R, the R kernel is still not available in Jupyter and we will need to run two commands in the R console:
 
 1. Installing the [IRkernel package](https://cran.rstudio.com/web/packages/IRkernel/index.html):
 ```R
