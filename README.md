@@ -75,7 +75,7 @@ jupyter lab
 
 A web browser window should pop-up and you can start working with Jupyter Lab.
 
-> [!WARNING]  
+> [!NOTE]  
 > In Windows you might be required to use the so called "Anaconda Prompt", if you decided to skip adding conda to your path environment. 
 
 
