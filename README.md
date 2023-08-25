@@ -54,6 +54,11 @@ install.packages("IRkernel")
 IRkernel::installspec(user = FALSE)
 ```
 
+You made it!! Now you should be able to run a Jupiter Lab on your computer and run the R kernel in it.
+
+Let's setup the environment for the workshop ahead.
+
+
 ## Start the workshop environment
 
 The first step is to clone this repository.
@@ -68,7 +73,7 @@ Go to the directory and depending on your installation you can now run the Jupyt
 jupyter lab
 ```
 
-A web browser window should pop-up and you can start working with Jupyter Notebooks.
+A web browser window should pop-up and you can start working with Jupyter Lab.
 
 > [!WARNING]  
 > In Windows you might be required to use the so called "Anaconda Prompt", if you decided to skip adding conda to your path environment. 
