@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alexseymer/WAPOR2023_W5_ASDQ/HEAD?urlpath=lab)
+hi[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alexseymer/WAPOR2023_W5_ASDQ/HEAD?urlpath=lab)
 
 # WAPOR2023_W5_ASDQ
 
@@ -75,7 +75,7 @@ jupyter lab
 
 A web browser window should pop-up and you can start working with Jupyter Lab.
 
-> [!Note]
+> [!NOTE]
 > In Windows you might be required to use the so called "Anaconda Prompt", if you decided to skip adding conda to your path environment. 
 
 
