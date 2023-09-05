@@ -43,7 +43,7 @@ conda install -c conda-forge jupyterlab
 
 The R-Project provides a [guide to installation and administration for R](https://cran.r-project.org/doc/manuals/r-release/R-admin.html), but if you are running Windows or macOS, it's basically about downloading the proper package [(see here)](https://cloud.r-project.org/) and installing it.
 
-After installing R, the R kernel is still not available in Jupyter and we will need to run to commands in the R console:
+After installing R, the R kernel is still not available in Jupyter and we will need to run two commands in the R console:
 
 1. Installing the [IRkernel package](https://cran.rstudio.com/web/packages/IRkernel/index.html):
 ```R
@@ -53,6 +53,11 @@ install.packages("IRkernel")
 ```R
 IRkernel::installspec(user = FALSE)
 ```
+
+You made it!! Now you should be able to run a Jupiter Lab on your computer and run the R kernel in it.
+
+Let's setup the environment for the workshop ahead.
+
 
 ## Start the workshop environment
 
@@ -68,9 +73,9 @@ Go to the directory and depending on your installation you can now run the Jupyt
 jupyter lab
 ```
 
-A web browser window should pop-up and you can start working with Jupyter Notebooks.
+A web browser window should pop-up and you can start working with Jupyter Lab.
 
-> [!WARNING]  
+> [!NOTE]
 > In Windows you might be required to use the so called "Anaconda Prompt", if you decided to skip adding conda to your path environment. 
 
 
