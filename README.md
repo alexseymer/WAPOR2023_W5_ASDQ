@@ -4,7 +4,7 @@
 
 This is the repository for the [WAPOR 2023 Training Workshop 5 Assessment of Survey Data Quality](https://wapor.org/events/annual-conference/current-conference/training-workshops/).
 
-All participants are encouraged to clone the git repository [(need help with git?)](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) before the workshop starts and make sure they can run jupyter notebooks with R code on their laptops. The repository contains all slides, data and code in Jupyter Notebooks used during the workshop.
+All participants are encouraged to clone the git repository [(need help with git?)](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) before the workshop starts and make sure they can run Jupyter Notebooks with R code on their laptops. The repository contains all slides, data and code in Jupyter Notebooks used during the workshop.
 
 ## Folder content
 
