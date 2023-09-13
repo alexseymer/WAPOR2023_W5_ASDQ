@@ -14,4 +14,7 @@ pacman::p_load(
     haven,
     readxl,
     anesrake, 
-    utils)
+    utils,
+    eurostat,
+    DT,
+    flextable)
