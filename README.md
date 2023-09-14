@@ -12,7 +12,6 @@ All participants are encouraged to clone the git repository [(need help with git
 - Session2.ipynb - Design effect and weighting (R Code in Jupyter Notebook) 
 - Session3.ipynb - Response styles (R Code in Jupyter Notebook)
 
-
 ## Required software
 
 We provide here some installation instructions and links, which should make it easy to get [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/index.html) with R up and running. Please be aware that we cannot provide technical assistance for installing software.
@@ -28,6 +27,13 @@ The installation differs only slightly across Windows, Linux or macOS.
 ### Installing Python
 
 Python can be installed in various ways, but we recommend using [conda](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html), which makes installing jupyter very simple. To install conda, you need to execute the relevant installer [here](https://docs.conda.io/en/latest/miniconda.html).
+
+In case, you use conda already, please make sure to update your environment:
+
+```bash
+conda update --all
+```
+
 
 ### Installing Jupyter
 
