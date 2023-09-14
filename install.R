@@ -17,4 +17,5 @@ pacman::p_load(
     utils,
     eurostat,
     DT,
-    flextable)
+    flextable,
+    tableone)
