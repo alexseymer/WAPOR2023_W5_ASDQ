@@ -18,4 +18,6 @@ pacman::p_load(
     eurostat,
     DT,
     flextable,
-    tableone)
+    table1,
+    IRdisplay)
+
