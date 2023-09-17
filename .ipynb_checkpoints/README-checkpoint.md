@@ -4,14 +4,16 @@
 
 This is the repository for the [WAPOR 2023 Training Workshop 5 Assessment of Survey Data Quality](https://wapor.org/events/annual-conference/current-conference/training-workshops/).
 
-All participants are encouraged to clone the git repository [(need help with git?)](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) before the workshop starts and make sure they can run jupyter notebooks with R code on their laptops. The repository contains all slides, data and code in Jupyter Notebooks used during the workshop.
+All participants are encouraged to clone the git repository [(need help with git?)](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) before the workshop starts and make sure they can run Jupyter Notebooks with R code on their laptops. The repository contains all slides, data and code in Jupyter Notebooks used during the workshop.
+
+Please go through the DataDownload Notebook before the worksop starts
 
 ## Folder content
 
-- Session1.ppt   - Introduction (Powerpoint slides)
-- Session2.ipynb - Design effect and weighting (R Code in Jupyter Notebook) 
-- Session3.ipynb - Response styles (R Code in Jupyter Notebook)
-
+- Slidedeck.ppt   - Introduction (Powerpoint slides)
+- DataDownload.ipynb - Preparing the data for the workshop (R Code in Jupyter Notebook)
+- Weighting.ipynb - Design effect and weighting (R Code in Jupyter Notebook) 
+- ResponseStyle.ipynb - Response styles (R Code in Jupyter Notebook)
 
 ## Required software
 
@@ -29,6 +31,13 @@ The installation differs only slightly across Windows, Linux or macOS.
 
 Python can be installed in various ways, but we recommend using [conda](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html), which makes installing jupyter very simple. To install conda, you need to execute the relevant installer [here](https://docs.conda.io/en/latest/miniconda.html).
 
+In case, you use conda already, please make sure to update your environment:
+
+```bash
+conda update --all
+```
+
+
 ### Installing Jupyter
 
 The [Jupyter Project](https://docs.jupyter.org/en/latest/) provides a range of applications for various application szenarios, which mostly deal with [Jupyter Notebooks](https://docs.jupyter.org/en/latest/#what-is-a-notebook). We will use [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/index.html) to run the Jupyter Notebooks locally on your computer. 
@@ -39,11 +48,13 @@ Open a terminal and run the following code:
 conda install -c conda-forge jupyterlab
 ```
 
+We recommend to install 
+
 ### Installing R
 
 The R-Project provides a [guide to installation and administration for R](https://cran.r-project.org/doc/manuals/r-release/R-admin.html), but if you are running Windows or macOS, it's basically about downloading the proper package [(see here)](https://cloud.r-project.org/) and installing it.
 
-After installing R, the R kernel is still not available in Jupyter and we will need to run to commands in the R console:
+After installing R, the R kernel is still not available in Jupyter and we will need to run two commands in the R console:
 
 1. Installing the [IRkernel package](https://cran.rstudio.com/web/packages/IRkernel/index.html):
 ```R
@@ -53,6 +64,11 @@ install.packages("IRkernel")
 ```R
 IRkernel::installspec(user = FALSE)
 ```
+
+You made it!! Now you should be able to run a Jupiter Lab on your computer and run the R kernel in it.
+
+Let's setup the environment for the workshop ahead.
+
 
 ## Start the workshop environment
 
@@ -68,9 +84,9 @@ Go to the directory and depending on your installation you can now run the Jupyt
 jupyter lab
 ```
 
-A web browser window should pop-up and you can start working with Jupyter Notebooks.
+A web browser window should pop-up and you can start working with Jupyter Lab.
 
-> [!WARNING]  
+> [!NOTE]
 > In Windows you might be required to use the so called "Anaconda Prompt", if you decided to skip adding conda to your path environment. 
 
 

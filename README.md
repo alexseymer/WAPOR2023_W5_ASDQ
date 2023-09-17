@@ -6,11 +6,14 @@ This is the repository for the [WAPOR 2023 Training Workshop 5 Assessment of Sur
 
 All participants are encouraged to clone the git repository [(need help with git?)](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) before the workshop starts and make sure they can run Jupyter Notebooks with R code on their laptops. The repository contains all slides, data and code in Jupyter Notebooks used during the workshop.
 
+Please go through the DataDownload Notebook before the worksop starts
+
 ## Folder content
 
-- Session1.ppt   - Introduction (Powerpoint slides)
-- Session2.ipynb - Design effect and weighting (R Code in Jupyter Notebook) 
-- Session3.ipynb - Response styles (R Code in Jupyter Notebook)
+- Slidedeck.ppt   - Introduction (Powerpoint slides)
+- DataDownload.ipynb - Preparing the data for the workshop (R Code in Jupyter Notebook)
+- Weighting.ipynb - Design effect and weighting (R Code in Jupyter Notebook) 
+- ResponseStyle.ipynb - Response styles (R Code in Jupyter Notebook)
 
 ## Required software
 
@@ -80,6 +83,8 @@ jupyter lab
 ```
 
 A web browser window should pop-up and you can start working with Jupyter Lab.
+
+We recommend to install the `jupyterlab-mathjax2` right away as the notebooks contain math expressions, which might not render properly.
 
 > [!NOTE]
 > In Windows you might be required to use the so called "Anaconda Prompt", if you decided to skip adding conda to your path environment. 
