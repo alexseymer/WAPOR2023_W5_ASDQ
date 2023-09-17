@@ -73,3 +73,7 @@ rsconnect/
 # End of https://www.toptal.com/developers/gitignore/api/jupyternotebooks,r
 ## Zip files
 *.zip
+
+data/
+*/data
+/data/
