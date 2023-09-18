@@ -12,6 +12,15 @@ All participants are encouraged to clone the git repository [(need help with git
 > [!IMPORTANT]
 > The required data needs to be downloaded manually as you need to confirm the terms of use individually. Please go through the [DataDownload Notebook](https://github.com/alexseymer/WAPOR2023_W5_ASDQ/blob/main/DataDownload.ipynb) before the worksop starts to get the data.
 
+## Requirements
+
+We use the following software stack:
+- [git](https://git-scm.com/)
+- [Python](https://www.python.org/)
+- [Jupyter Lab](https://docs.jupyter.org/en/latest/)
+- [R](https://www.r-project.org/)
+
+Please consult the [requirements](Requirements.md) for some guidelines on installing the required software stack. You can skip it, if you can run R in Jupyter Notebooks locally.
 
 ## Folder content
 
@@ -21,13 +30,12 @@ All participants are encouraged to clone the git repository [(need help with git
 
 ## Start the workshop environment
 
-Please consult the [requirements](Requirements.md) for the required software stack. You can skip it, if you can run R in Jupyter Notebooks.
-
 The first step is to clone this repository.
 
 ```bash
 git clone https://github.com/alexseymer/WAPOR2023_W5_ASDQ.git
 ```
+If you don't want to use git, you can download the [zipped git-repository](https://github.com/alexseymer/WAPOR2023_W5_ASDQ/archive/refs/heads/main.zip).
 
 Go to the directory and depending on your installation you can now run the Jupyter Lab from the console. 
 
