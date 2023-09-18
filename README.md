@@ -7,7 +7,7 @@ This is the repository for the [WAPOR 2023 Training Workshop 5 Assessment of Sur
 All participants are encouraged to clone the git repository [(need help with git?)](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) before the workshop starts and make sure they can run Jupyter Notebooks with R code on their laptops. The repository contains all slides and code in Jupyter Notebooks used during the workshop.
 
 > [!IMPORTANT]
-> The required data needs to be downloaded manually as you need to confirm the terms of use individually. Please go through the [DataDownload Notebook](./DataDownload.ipynb) before the worksop starts to get the data.
+> The required data needs to be downloaded manually as you need to confirm the terms of use individually. Please go through the [DataDownload Notebook](https://github.com/alexseymer/WAPOR2023_W5_ASDQ/blob/main/DataDownload.ipynb) before the worksop starts to get the data.
 
 
 ## Folder content
