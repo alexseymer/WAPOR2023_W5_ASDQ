@@ -1,11 +1,11 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alexseymer/WAPOR2023_W5_ASDQ/HEAD?urlpath=lab)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8354808.svg)](https://doi.org/10.5281/zenodo.8354808)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10017882.svg)](https://doi.org/10.5281/zenodo.10017882)
 
 # WAPOR2023_W5_ASDQ
 
 This is the repository for the [WAPOR 2023 Training Workshop 5 Assessment of Survey Data Quality](https://wapor.org/events/annual-conference/current-conference/training-workshops/).
 
-The slidedeck is available at [Zenodo (https://doi.org/10.5281/zenodo.8354807)](https://zenodo.org/record/8354808)
+The slidedeck is available at  [Zenodo (https://doi.org/10.5281/zenodo.10017882)](https://zenodo.org/record/10017882) 
 
 All participants are encouraged to clone the git repository [(need help with git?)](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) before the workshop starts and make sure they can run Jupyter Notebooks with R code on their laptops. The repository contains all slides and code in Jupyter Notebooks used during the workshop.
 
